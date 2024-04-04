@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset="UTF-8">
+		<meta name = "viewport" content ="width = device - width, initial">
+		<title> HTML Form - Sign Up Page </title> 
+	</head> 
+	<body>
+		<div class = "info"> 
+			<h1> S i g n   -   U p </h1> 
+			<form> 
+				<label for = "name"> Name </label>
+				<span> <input type = "text" id = "textName" name = "inputName"> </span>
+				<label for = "username"> Username </label>
+				<span> <input type = "text" id = "textUsername" name = "inputUserName"> </span>
+				<label for = "email"> Email </label>
+				<span> <input type = "email" id = "eMail" name = "inputEmail"> </span>
+				<label for = "address"> Address </label>
+				<span> <input type = "text" id = "textAddress" name = "inputAddress"> </span>
+				<label for = "addInterest"> Additional Interests </label>
+				<span> <input type = "text" id = "interests" name = "additional"> </span>
+				<label for = "password"> Password </label>
+				<span> <input type = "password" id = "pWord" name = "inputPassword"> </span>
+				<label for = "confirm"> Confirm Password </label>
+				<span> <input type = "password" id = "confirmPass" name = "confirmation"> </span>
+				<input type = "button" value = "Submit"> 	
+			</form> 
+		</div> 
+		
+		<script> 
+		</script> 
+	</body> 
+	<style> 
+		body{ 
+			background-color: white;
+		}
+		.info{ 
+			width: 360px;
+			height: 620px;
+			margin: auto;
+			background-color: white;
+			border-radius: 3px; 
+		}
+		
+		h1{
+			text-align: center;
+			padding-top: 15px;
+		}
+		
+		form{
+			width:300px;
+			margin-left: 20px;
+		}
+		
+		form label{
+			display: flex;
+			margin-top:20px;
+			font-size:18px;
+		}
+		
+		form input {
+			width:100%;
+			padding:7px;
+			border:none;
+			border: 1px solid #DDDDDD; 
+			border-radius:3px;
+			background-color: #DDDDDD;
+			outline:none;
+		}
+		
+		input[type = "button"]{
+			width: 320px;
+			height: 35px;
+			margin-top:40px;
+			border:none;
+			background-color: #49c1a2;
+			color: white;
+			font-size: 18px;
+		}
+		
+	</style> 
+</html> 
+	
